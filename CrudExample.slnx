@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CrudExample.Application\CrudExample.Application.csproj" Type="Classic C#" />
+  <Project Path="CrudExample.Dal\CrudExample.Dal.csproj" Type="Classic C#" />
+  <Project Path="CrudExample.Domain\CrudExample.Domain.csproj" Type="Classic C#" />
+</Solution>
