@@ -192,6 +192,16 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "CrudExample.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CrudExample.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrudExample.Domain.dll": {}
+        }
       }
     }
   },
@@ -538,10 +548,16 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CrudExample.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CrudExample.Domain/CrudExample.Domain.csproj",
+      "msbuildProject": "../CrudExample.Domain/CrudExample.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "CrudExample.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.5"
     ]
   },
@@ -569,7 +585,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/nico/projects/CrudExample/CrudExample.Domain/CrudExample.Domain.csproj": {
+              "projectPath": "/home/nico/projects/CrudExample/CrudExample.Domain/CrudExample.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
