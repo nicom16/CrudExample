@@ -29,13 +29,13 @@ public abstract class EntityBase
         return entity;
     }
 
-    protected virtual void Update(Guid userId, NamedValuesCollection values)
+    public virtual void Update(Guid userId, NamedValuesCollection values)
     {
         UpdatedAt = DateTime.UtcNow;
         UpdatedBy = userId;
     }
 
-    protected virtual void Delete(Guid userId)
+    public virtual void Delete(Guid userId)
     {
         IsDeleted = true;
         DeletedAt = DateTime.UtcNow;

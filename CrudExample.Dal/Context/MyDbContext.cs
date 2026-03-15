@@ -4,5 +4,9 @@ namespace CrudExample.Dal.Context;
 
 public class MyDbContext(DbContextOptions<MyDbContext> options) : DbContext(options)
 {
-    // TODO mapping etc
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(MyDbContext).Assembly);
+    }
 }
