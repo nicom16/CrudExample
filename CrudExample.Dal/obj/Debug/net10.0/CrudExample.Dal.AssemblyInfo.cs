@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudExample.Dal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49d6e93640881f6ff29ecee7b9ed14f6f30becd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89f55ec79da9b92589e719b8d474ccfd6348dd76")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudExample.Dal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudExample.Dal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
